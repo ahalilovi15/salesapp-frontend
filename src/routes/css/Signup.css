@@ -1,0 +1,21 @@
+.signup-page{
+    margin-top: 10%
+}
+.signupform{
+    display: flex;
+    flex-direction: column;
+    width: 30%
+}
+.signup-signup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+form input{
+    margin-bottom: 20px;
+    border-color: rgba(0,0,0,.25);
+    border-width: thin;
+    padding-left: 5px;
+    border-radius: 2px;
+    padding-block: 7px
+}
