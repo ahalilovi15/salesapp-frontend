@@ -9,7 +9,18 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const dispatch = useDispatch();
-  
+  React.useEffect(() => {
+    dispatch({
+      type: UPDATE_NAME,
+      payload: {
+        id: 0,
+        name: '',
+        lname: '',
+        email: '',
+        password: ''
+      }
+    });
+  }, []);
   const login = () => {
     
   

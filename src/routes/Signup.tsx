@@ -51,7 +51,7 @@ const Signup = () => {
     <input type="text" onChange={evt => updatePassword(evt)}></input>
     </div>
     </div>
-    <button>Sign Up</button>
+    <button className="signup-button">Sign Up</button>
     </form>
   </div>;
 };

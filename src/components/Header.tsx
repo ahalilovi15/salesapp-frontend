@@ -14,7 +14,7 @@ const Header = () => {
 
     <nav>
       <p> {selector.name ? `Welcome, ${selector.name} ${selector.lname}!` : content}</p>
-      {selector ? 
+      {selector.name ? 
       (<div className="right-side">
       <NavLink activeClassName="cart" to="/cart">
       <img className="cart-img"src={cart} width = "20" ></img>

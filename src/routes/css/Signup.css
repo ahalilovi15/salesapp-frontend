@@ -19,3 +19,11 @@ form input{
     border-radius: 2px;
     padding-block: 7px
 }
+.signup-button{
+    padding-block: 7px;
+    padding-inline: 13px;
+    background: #1890ff;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
