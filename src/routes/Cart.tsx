@@ -36,6 +36,7 @@ const Cart = () => {
           <div className="items">
           <ol>
           {
+            
         shoes.map((shoe : any) => {
           return <div className="cart-item">
             <div className="cart-li">
