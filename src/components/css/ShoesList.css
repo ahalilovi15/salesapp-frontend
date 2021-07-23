@@ -1,0 +1,30 @@
+.shoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-inline: 100px;
+    margin-top: 2%
+}
+.shoe{
+    background-color: white;
+    border-width: 2px;
+    padding-inline: 7%;
+    padding-block: 3%;
+    border-style: solid;
+    margin-top: 3%;
+    border-radius: 10px
+}
+.title, .price, .title-title{
+    color: rgba(0,0,0,.65)
+}
+.title{
+    font-size: 13px
+}
+.title-title{
+    margin-top: 3%;
+    font-size: 20px
+}
+.price{
+    font-size: 18px;
+    margin-top: 5px
+}

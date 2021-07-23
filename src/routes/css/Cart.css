@@ -1,0 +1,34 @@
+.cart-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #f0f2f5;
+}
+.cart-page .shoe-card{
+    padding-inline: 0%;
+    color: rgba(0,0,0,.65);
+    font-size: 14px;
+}
+.cart-price{
+    margin-inline: -20%;
+    width: max-content
+}
+.cart-li{
+    margin-inline: 2em;
+    width: max-content
+}
+.cart-title, .cart-li, .cart-price{
+    margin-block: 1em;
+}
+.cart-title{
+    padding-left: 2em
+}
+.items{
+    margin-block: 2%
+}
+.cart-page .shoe-card{
+    height: 35em
+}
+.cart-page .shoe-card button{
+    margin-bottom: 1em;
+}

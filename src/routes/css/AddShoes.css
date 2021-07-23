@@ -1,0 +1,43 @@
+.add-button{
+    padding-block: 7px;
+    padding-inline: 10%;
+    background: white;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    color:rgba(0,0,0,.65);
+    margin-top: 3%;
+    
+}
+.addshoes-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.addshoes-page{
+    margin-top: 3%
+}
+.addshoes-labels{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.addshoes-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 30%
+}
+.addshoes-inputs input{
+    padding-block: 7px;
+    margin-bottom: 20px;
+    border-color: rgba(0,0,0,.25);
+    border-width: thin;
+    padding-left: 5px;
+    border-radius: 2px;
+
+}
+.addshoes-labels label{
+    padding-block: 5px;
+    margin-bottom: 24px;
+    margin-right: 10px;
+    font-size: 13px;
+}

@@ -1,0 +1,60 @@
+.shoe-second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 0%
+}
+.shoe-card{
+    padding-inline: 20%;
+    background-color: white;
+    border-width: 2px;
+    padding-block: 3%;
+    border-style: solid;
+    margin-top: 3%;
+    border-radius: 10px;
+    margin-inline: 10%
+}
+.shoe-description{
+    width: 50%;
+    text-align: left;
+    color: rgba(0,0,0,.65);
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 1em;
+    padding-top: 10px;
+}
+.shoe-rating{
+    width: 50%;
+    text-align: right;
+    color: rgba(0,0,0,.65);
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 1em;
+    padding-top: 10px;
+    padding-left: 5%
+}
+.shoe-price{
+    margin-top: -15px;
+    font-size: 30px;
+    margin-bottom: 1em;
+    color: rgba(0,0,0,.65);
+}
+.shoe-title{
+    color: rgba(0,0,0,.65);
+    margin-top: 0;
+    margin-bottom: 1em;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.shoe-card button{
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    height: 32px;
+    padding: 4px 15px;
+    font-size: 12px;
+    border-radius: 2px;
+    color: rgba(0,0,0,.65);
+    margin-top: 3%;
+    margin-bottom: -5%
+}
